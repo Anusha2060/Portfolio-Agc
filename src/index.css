@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Heebo:wght@500&family=Josefin+Sans:wght@400;500&family=Mulish:wght@300&family=Open+Sans&family=Poppins:wght@200;400&family=Roboto:wght@300&display=swap");
+/* font-family: 'Heebo', sans-serif;
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Mulish', sans-serif;
+font-family: 'Open Sans', sans-serif;
+/* font-family: 'Poppins', sans-serif; */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  background-color: #2e2e35;
+  color: #d4d4d4;
+  padding: 0px;
+  margin: 0px;
+}
+
+.fonts {
+  font-family: "Open Sans", sans-serif;
+}
+
+.scroll::-webkit-scrollbar {
+  display: none;
+}
+
+.back {
+  border-radius: 5px;
+  background-color: #34343b;
+  box-shadow: 1px 1px 2px #2e2e35;
+}
+
+.wrap {
+  background-color: #34343b;
+  box-shadow: 1px 1px 2px #2e2e35;
+}
+
+.send {
+  background-color: #2e2e35;
+  box-shadow: 1px 1px 2px #34343b;
+}
