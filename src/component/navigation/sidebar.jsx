@@ -1,20 +1,17 @@
-import React from "react";
-import Logo from "../../assets/logo.png";
-import { Link } from "react-router-dom";
-function Toolbar({setsidebar,Sidebarshow}) {
+import React from 'react'
+import { Link } from 'react-router-dom'
+
+function Sidebar({Sidebarshow}) {
   return (
-    <nav className="flex justify-around w-screen items-center  h-full">
-      <img
-        src="./src/assets/logo.png"
-        className="h-38 w-56 lg:h-36 w-54 mt-3"
-      />
-      <div className="fonts hidden lg:flex gap-4 text-lg font-medium hover:cursor-pointer">
+    <div>
+        <div className={`h-screen w-44 ${Sidebarshow?"translate-x-0":"translate-x-48"} transition-all duration-700 ease-in-out delay-100 bg-red-500 fixed lg:hidden top-0 right-0`}>
+      <div className='flex flex-col gap-3 pt-5 text-center'>
         <div className="h-fit w-full px-3 group relative group-hover:border-b ">
           <Link to={"/"} className=" relative z-10 pb-2 ">
             Home
           </Link>
           <div
-            className="h-0.5  bg-orange-300 absolute	bottom-0 left-0 w-0 text-lg text-center
+            className="h-0.5  bg-orange-300 absolute bottom-0 left-0 w-0 text-lg text-center
            font-medium
            group-hover:w-full 
            transition-all duration-700 delay-100 ease-in-out"
@@ -86,14 +83,12 @@ function Toolbar({setsidebar,Sidebarshow}) {
            transition-all duration-700 delay-100 ease-in-out   "
           ></div>
         </div>
-      </div>
-<div onClick={()=>{
-  setsidebar(!Sidebarshow)
-}} className="block lg:hidden">
-        menu
-      </div> 
-    </nav>
-  );
+        </div>
+
+            
+        </div>
+    </div>
+  )
 }
 
-export default Toolbar;
+export default Sidebar

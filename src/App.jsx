@@ -1,3 +1,4 @@
+
 import { useState } from "react";
 import "./App.css";
 import Toolbar from "./component/navigation/Tool_bar";
@@ -10,14 +11,19 @@ import Portfolio from "./Pages/Portfolio";
 import Contact from "./Pages/Contact";
 import Skill from "./Pages/Skill";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import Sidebar from "./component/navigation/sidebar";
+
 
 // import ReactTypingEffect from 'react-typing-effect';
+
 function App() {
+  const [Sidebarshow,setsidebar]=useState(false)
   return (
     <div className="h-screen w-screen overflow-hidden relative">
       <Router>
         <div className="h-110 ">
-          <Toolbar />
+          <Toolbar setsidebar={setsidebar} Sidebarshow={Sidebarshow} />
+            <Sidebar Sidebarshow={Sidebarshow} />
         </div>
         <div className="h-120 overflow-scroll scroll ">
           <Routes>
