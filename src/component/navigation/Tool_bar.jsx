@@ -89,8 +89,9 @@ function Toolbar({setsidebar,Sidebarshow}) {
       </div>
 <div onClick={()=>{
   setsidebar(!Sidebarshow)
-}} className="block lg:hidden">
-        menu
+}} className="block cursor-pointer  lg:hidden">
+  <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24"><path fill="currentColor" d="M4 17.27v-1h16v1H4Zm0-4.77v-1h16v1H4Zm0-4.77v-1h16v1H4Z"/></svg>
+        
       </div> 
     </nav>
   );
