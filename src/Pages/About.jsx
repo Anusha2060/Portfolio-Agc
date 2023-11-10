@@ -22,7 +22,7 @@ function About() {
         // viewport={{
         //   amount: 0.5,
         // }}
-        className="uppercase text-base w-full text-center sm:text-xl lg:text-2xl  font-semibold pt-6	"
+        className="uppercase w-full text-center text-2xl lg:text-3xl font-semibold pt-6	"
       >
         junior front-end developer
       </motion.div>
@@ -36,7 +36,7 @@ function About() {
         // transition={{
         //   duration: 0.6,
         // }}
-        className="text-sm sm:text-xl  pt-10 text-center lg:text-xl w-10/12 md:w-8/12 "
+        className="text-sm sm:text-xl pt-10 text-center lg:text-2xl w-10/12 md:w-8/12  "
       >
         Frontend web developer adapt at building responsive web applications.
         Passionate about learning new technologies, bringing ideas to life, and

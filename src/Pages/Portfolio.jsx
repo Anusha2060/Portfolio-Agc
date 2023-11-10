@@ -20,7 +20,7 @@ function Portfolio() {
         />
       </div>
       <div className="border-t-2 border-orange-300 w-20 mt-1"></div>
-      <div className="flex flex-col gap-3  lg:grid grid-cols-2 w-10/12 mx-auto mt-10 cursor-pointer">
+      <div className="flex flex-col gap-3 w-10/12  lg:w-10/12 mx-auto mt-10 cursor-pointer">
         <img
           src="./src/assets/Screenshot (3).png"
           className=" w-full rounded-lg"

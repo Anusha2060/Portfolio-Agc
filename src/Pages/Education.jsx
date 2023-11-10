@@ -8,7 +8,7 @@ function Education() {
       </div>
 
       <div className="w-full  group cursor-pointer ">
-        <div className="p-3 w-full sm:p-5 h-5/6 text-lg font-medium back  text-orange-300 capitalize mt-14 md:text-2xl">
+        <div className="p-3 w-full sm:p-5 h-5/6 text-lg font-medium back  text-orange-300 capitalize mt-14 md:text-2xl lg:p-8">
           secondary education examination(SEE) - 3.15GPA
         </div>
         <div className="h-0 bg-slate-200  w-full text-base md:text-xl text-center opacity-0 text-black font-medium group-hover:h-32 pt-1 transitio n-all duration-700 delay-100 ease-in-out rounded-b-md	 group-hover:opacity-100  ">
@@ -20,7 +20,7 @@ function Education() {
       </div>
 
       <div className="w-full group cursor-pointer">
-        <div className="p-3 w-full sm:p-5 h-5/6 back text-orange-300 capitalize font-medium text-lg mt-14 md:text-2xl">
+        <div className="p-3 w-full sm:p-5 h-5/6 back text-orange-300 capitalize font-medium text-lg mt-14 md:text-2xl lg:p-8">
           school leaving certificate(SLC) - 2.75GPA
         </div>
         <div className="h-0 bg-slate-200 text-base  w-full md:text-xl text-center opacity-0 text-black font-medium group-hover:h-32 pt-1 transition-all duration-700 delay-100 ease-in-out rounded-b-md	 group-hover:opacity-100  ">

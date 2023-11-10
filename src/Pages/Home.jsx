@@ -22,7 +22,7 @@ function Home() {
               delaySpeed={1000}
             />
           </div>
-          <div className="w-80 text-xl md:text-lg font-semibold">
+          <div className="text-xl md:text-2xl w-96">
             <Typewriter
               words={["JUNIOR FRONT-END DEVELOPER"]}
               loop={Infinity}

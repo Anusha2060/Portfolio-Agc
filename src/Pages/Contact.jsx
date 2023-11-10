@@ -20,11 +20,11 @@ function Contact() {
       </div>
 
       <div className="border-t-2 border-orange-300 w-32 mt-1"></div>
-      <div className="w-10/12 md:w-6/12 text-center text-xl pt-10">
+      <div className="w-10/12 md:w-8/12 text-center text-xl pt-10 lg:text-2xl">
         Let's grab a cup of coffee. Feel free to reach out of any project
         related inquiries and I'll follow up as soon as possible.
       </div>
-      <div className=" flex flex-col mt-16 cursor-pointer md:grid grid-cols-3 gap-5">
+      <div className=" flex flex-col mt-16 cursor-pointer md:grid grid-cols-2 gap-5">
         <div className="w-full h-full wrap flex gap-5 p-2 pr-7">
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -124,7 +124,7 @@ function Contact() {
       </div>
 
       {/* FORM */}
-      <div className=" w-10/12 wrap mt-16 h-10/12  p-5 md:w-5/12   rounded-md	">
+      <div className=" w-10/12 wrap mt-16 h-10/12  p-5 md:w-8/12  rounded-md	">
         <div className="capitalize text-xl font-semibold text-center">
           drop a line
         </div>

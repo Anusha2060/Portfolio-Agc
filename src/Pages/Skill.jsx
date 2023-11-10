@@ -4,11 +4,11 @@ import React from "react";
 
 function Skill() {
   return (
-    <div className="flex flex-col items-center mt-14 justify-center   ">
+    <div className="flex flex-col items-center mt-14 justify-center pb-10  ">
       <div className="text-xl font-semibold text-orange-300	uppercase">
         skills
       </div>
-      <div className="uppercase text-3xl font-semibold pt-6">
+      <div className="uppercase text-3xl font-semibold pt-6 ">
         <Typewriter
           words={["what i use"]}
           loop={Infinity}
@@ -21,7 +21,7 @@ function Skill() {
       </div>
       <div className="border-t-2 border-orange-300 w-24 mt-1"></div>
 
-      <div className="md:grid grid-cols-1 lg:flex justify-start gap-7 w-7/12 mt-10">
+      <div className="flex flex-col md:grid grid-cols-1 lg:flex justify-start gap-7 w-7/12 mt-10">
         <div className=" w-full m-auto   pt-4 pb-4 wrap rounded-md	">
           <div className="text-center text-xl font-bold text-orange-300 uppercase">
             frontend
@@ -104,7 +104,7 @@ function Skill() {
           </div>
         </div>
 
-        <div className="wrap rounded-md  w-full pt-4 pb-4">
+        <div className="wrap rounded-md  w-full pt-4 pb-4 lg:pb-8">
           <div className="text-center text-xl font-bold text-orange-300 uppercase">
             tools & software
           </div>
