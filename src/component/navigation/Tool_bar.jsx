@@ -1,17 +1,10 @@
 import React from "react";
-
-// import Logo from "../../assets/logo.png"
 import Logo from "../../assets/logo.png";
 import { Link } from "react-router-dom";
 function Toolbar({ setsidebar, Sidebarshow }) {
   return (
     <nav className="flex justify-around w-screen items-center  h-full">
     <img src={Logo} className="h-38 w-56 lg:h-36 w-54 mt-3"/>
-
-      {/* <img
-        src="./src/assets/logo.png"
-        className="h-38 w-56 lg:h-36 w-54 mt-3"
-      /> */}
       <div className="fonts hidden lg:flex gap-4 text-lg font-medium hover:cursor-pointer">
         <div className="h-fit w-full px-3 group relative group-hover:border-b ">
           <Link to={"/"} className=" relative z-10 pb-2 ">

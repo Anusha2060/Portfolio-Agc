@@ -1,14 +1,14 @@
 import React from "react";
+import Pic from "../assets/self.png"
 import { Typewriter } from "react-simple-typewriter";
 
 function Home() {
   return (
     <div>
       <div className="flex flex-col lg:flex-row md:w-screen justify-center items-center lg:justify-evenly pt-10">
-        <img
-          src="./src/assets/self.png"
-          className="w-min md:w-3/6	h-full  justify-center	"
-        />
+
+<img src={Pic} className="w-min md:w-3/6 h-full justify-center" />
+       
         <div className="fonts leading-tight flex flex-col gap-4 items-center py-7 md:py-24">
           <div className="text-base md:text-lg">HELLO EVERYBODY, I AM</div>
           <div className=" font-extrabold text-3xl break-all w-72 uppercase text-center text-orange-300 ">
